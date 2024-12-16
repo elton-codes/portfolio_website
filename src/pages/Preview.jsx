@@ -114,7 +114,7 @@ const Preview = () => {
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-center px-8 md:px-16 lg:px-24">
           <div className="md:w-1/2 p-8">
             <img
-              src={aboutImg}
+              src={eltonImg}
               alt="profile img"
               className="w-full max-w-full max-h-[400px] object-contain"
             />

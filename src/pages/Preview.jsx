@@ -25,7 +25,7 @@ import {
 const Preview = () => {
   return (
     <div>
-      <div className="bg-black flex flex-col md:flex-row text-white justify-between items-center px-10 py-6 w-full">
+      <div className="bg-black flex flex-col md:flex-row text-white justify-between items-center px-10 py-6 w-full sticky top-0 z-50">
         <div className="mb-4 md:mb-0">
           <h4 className="text-white font-bold">E.A.M</h4>
         </div>
@@ -37,13 +37,13 @@ const Preview = () => {
             <a href="#about">ABOUT</a>
           </span>
           <span className="hover:text-yellow">
-            <a href="#about">RESUME</a>
+            <a href="#resume">RESUME</a>
           </span>
           <span className="hover:text-yellow">
-            <a href="#about">PROJECTS</a>
+            <a href="#projects">PROJECTS</a>
           </span>
           <span className="hover:text-yellow">
-            <a href="#about">CONTACT</a>
+            <a href="#contact">CONTACT</a>
           </span>
         </div>
         <div className="flex items-center mt-4 md:mt-0">
@@ -224,7 +224,7 @@ const Preview = () => {
       </div>
 
       {/* RESUME SECTION */}
-      <div className="bg-[#090e1a] text-white py-16">
+      <div id="resume" className="bg-[#090e1a] text-white py-16">
         <div className="container mx-auto px-8 md:px-16 lg:px-24">
           <h2 className="text-yellow text-center text-3xl font-semibold mb-8">
             RESUME
@@ -307,7 +307,7 @@ const Preview = () => {
         </div>
       </div>
       {/* Projects Section */}
-      <div className="bg-[#0A101E] text-white py-16">
+      <div id="projects" className="bg-[#0A101E] text-white py-16">
         <div className="container mx-auto px-8 md:px-16 lg:px-24">
           <h2 className="text-yellow text-center text-3xl font-bold mb-8">
             PROJECTS

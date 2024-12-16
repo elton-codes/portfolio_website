@@ -1,0 +1,15 @@
+import heroBg from "./images/hero-bg.jpg"
+import eltonImg from "./images/elton.jpg"
+import previewHeroImg from "./images/hero-img.jpeg"
+import signUpImg from "./images/signup.jpg"
+import heroImg from "./images/overview-hero.jpg"
+import noData from "./images/no-data.svg"
+import aboutImg from "./images/about.jpg"
+import skillsImg from "./images/skillsweb.jpeg"
+import wasteAlertImg from "./images/wasteAlert.png"
+import arowanaImg from "./images/arowana.png"
+import moneyMapImg from "./images/moneyMap.png"
+import eventsImg from "./images/events.png"
+import opulenceImg from "./images/opulence.png"
+
+export {heroBg, eltonImg, previewHeroImg, signUpImg, heroImg, noData, aboutImg, skillsImg, wasteAlertImg, arowanaImg, moneyMapImg, eventsImg, opulenceImg}

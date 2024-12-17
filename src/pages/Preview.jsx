@@ -25,7 +25,7 @@ import {
 const Preview = () => {
   return (
     <div>
-      <div className="bg-black flex flex-col md:flex-row text-white justify-between items-center px-10 py-6 w-full sticky top-0 z-50">
+      <div className="bg-black flex flex-col md:flex-row text-white justify-between items-center px-10 py-6 w-full">
         <div className="mb-4 md:mb-0">
           <h4 className="text-white font-bold">E.A.M</h4>
         </div>
